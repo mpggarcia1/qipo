@@ -39,6 +39,9 @@ p {
   padding-bottom: 10px;
   padding-left: 10px;
 }
+.navbar {
+  margin-bottom: 0; /* removes default excess margin */
+}
 
 .zennav{
 position: fixed;
@@ -113,7 +116,7 @@ img {
 }
 
 .imagenav{
-  width: 60px;
+  width: 90px;
   padding: 5px;
   /*border-radius: 70px; */ 
 
@@ -222,7 +225,7 @@ transform: rotate(-30deg);
 
 .box{
 
-  width: 30%;
+  width: 60%;
   
 }
 
