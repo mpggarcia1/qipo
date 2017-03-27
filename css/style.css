@@ -293,9 +293,9 @@ h2.left{
 }
 
 .flex{
-	height:100%;
+	height:90%;
 	display:flex;
-	justify-content:space-between;
+	justify-content:center;
 	align-items:stretch;
 }
 
@@ -412,7 +412,7 @@ h2.left{
 	font-size:14px;
 	color:#fff;
 	letter-spacing:1.5px;
-	background:#f42267;
+	background:#fff;
 	border-radius:30px;
 	display:inline-block;
 	text-decoration:none;
@@ -758,7 +758,7 @@ h2.left{
 
 .sec7_1_team_holder{
 	display:flex;
-	justify-content:space-between;
+	justify-content:space-around;
 	align-items:stretch;
 }
 
@@ -2460,7 +2460,7 @@ Landing 4 - Desktop App
 	text-transform:uppercase;
 	font-size:14px;
 	letter-spacing:2px;
-	background:#f42267;
+	background:#fff;
 	font-weight:400;
 }
 
@@ -3126,11 +3126,11 @@ Landing 4 - Desktop App
 }
 
 .sec3_5_btn.red, .sec3_5_btn.red:focus{
-	background:#f42267;
+	
 }
 
 .sec3_5_btn.red:hover{
-	background:#dd094e;
+	background:#1c36cc;
 }
 
 .sec3_5_btn.black, .sec3_5_btn.black:focus{
@@ -3138,7 +3138,7 @@ Landing 4 - Desktop App
 }
 
 .sec3_5_btn.black:hover{
-	background:#565656;
+	background:#fff;
 }
 
 .sec3_5_btn.big{
@@ -3184,8 +3184,8 @@ Landing 4 - Desktop App
 	display:inline-block;
 	height:50px;
 	line-height:46px;
-	border:2px solid #f53876;
-	color:#f53876;
+	border:2px solid #fff;
+	color:#fff;
 	font-size:14px;
 	text-transform:uppercase;
 	letter-spacing:1.5px;
@@ -3196,7 +3196,7 @@ Landing 4 - Desktop App
 
 .sec4_5_btn:hover{
 	opacity:0.8;
-	color:#f53876;
+	color:#ddd;
 }
 
 .sec4_5_btn i{
@@ -3311,8 +3311,8 @@ Landing 4 - Desktop App
 }
 
 .sec5_5_col .text{
-	font-weight:300;
-	font-size:18px;
+	font-weight:200;
+	font-size:15px;
 	line-height:28px;
 	margin-top:50px;
 }
@@ -3505,7 +3505,7 @@ Landing 4 - Desktop App
 	border-radius:25px;
 	padding:0 30px;
 	text-transform:uppercase;
-	background:#f42267;
+	background:#fff;
 	letter-spacing:1px;
 	font-size:14px;
 	margin-top:55px;
@@ -3598,7 +3598,7 @@ Landing 4 - Desktop App
 	color:#fff;
 	font-size:11px;
 	text-transform:uppercase;
-	background:#f42267;
+	background:#fff;
 	border-radius:18px;
 	letter-spacing:1px;
 	font-weight:400;
@@ -3762,7 +3762,7 @@ Landing 4 - Desktop App
 	line-height:50px;
 	padding:0 50px;
 	border-radius:25px;
-	background:#f42267;
+	background:white;
 	color:#fff;
 	font-size:14px;
 	letter-spacing:1.5px;
@@ -4635,7 +4635,7 @@ Landing 4 - Desktop App
 	max-width:830px;
 }
 
-.footer7 form{
+.footer7 form, .header13 form{
 	background:#fff;
 	border-radius:10px;
 	margin:50px auto 0 auto;
@@ -4644,17 +4644,6 @@ Landing 4 - Desktop App
 	text-align:center;
 	box-shadow:0 0 40px rgba(0,0,0,0.4);
 }
-
-.header13 form{
-	background:#fff;
-	border-radius:10px;
-	/*margin:50px auto 0 auto;*/
-	width:400px;
-	padding:45px 20px;
-	text-align:center;
-	box-shadow:0 0 40px rgba(0,0,0,0.4);
-}
-
 
 .footer7 .sec6_5_label{
 	text-align:left;
@@ -5240,11 +5229,11 @@ Landing 4 - Desktop App
 }
 
 .sec8_8 .header3_input_holder button{
-	background:#f42267;
+	background:#fff;
 }
 
 .sec8_8 .header3_input_holder button:hover{
-	background:#e50750;
+	background:#fff;
 }
 
 /* Section 9 (8) */
@@ -5718,7 +5707,7 @@ Landing 4 - Desktop App
 .sec3_9{
 	padding-top:100px;
 	padding-bottom:120px;
-	background:#f0ecdd;
+	background:#fff;
 	text-align:center;
 }
 
@@ -8277,7 +8266,7 @@ Landing 4 - Desktop App
 }
 
 .nav13 a, .nav13 a:focus{
-	color:blue;
+	color:#fff;
 	font-size:14px;
 	line-height:36px;
 }
@@ -8315,7 +8304,7 @@ Landing 4 - Desktop App
 .header13{
 	padding-top:219px;
 	padding-bottom:162px;
-	background:white url(../i/bg_header13.jpg) no-repeat 50% 50%;
+	background:#5a5c5e url(../i/bg_header13.jpg) no-repeat 50% 50%;
 	background-size:cover;
 }
 
@@ -8380,8 +8369,8 @@ Landing 4 - Desktop App
 /* Section 1 (13) */
 
 .sec1_13{
-	padding-top:112px;
-	padding-bottom:73px;
+	padding-top:0px;
+	padding-bottom:0px;
 }
 
 .sec1_13 .container{
@@ -8425,7 +8414,7 @@ Landing 4 - Desktop App
 }
 
 .sec1_13 .text{
-	font-size:18px;
+	font-size:16px;
 	line-height:28px;
 	font-weight:300;
 	color:#8c8f94;
@@ -9790,7 +9779,7 @@ Landing 4 - Desktop App
 }
 
 .nav15 .links a:hover{
-	border-bottom-color:#f42267;
+	border-bottom-color:#fff;
 	color:#ddd;
 }
 
@@ -11593,200 +11582,11 @@ Landing 4 - Desktop App
 	opacity:1;
 }
 
-/* Section 8 (17) */
-
-.sec8_17{
-	padding-top:110px;
-	padding-bottom:112px;
-	background:#f0ecdd;
-	text-align:center;
-}
-
-.sec8_17 .container{
-	max-width:970px;
-}
-
-.sec8_17_block{
-	float:left;
-	width:370px;
-	text-align:left;
-}
-
-.sec8_17_block .pretitle{
-	font-size:16px;
-	line-height:24px;
-	text-transform:uppercase;
-	letter-spacing:1px;
-	opacity:0.5;
-}
-
-.sec8_17_block .title{
-	font-size:32px;
-	line-height:42px;
-	margin-top:15px;
-}
-
-.sec8_17_block .text{
-	font-size:18px;
-	line-height:28px;
-	font-weight:300;
-	opacity:0.5;
-	margin-top:15px;
-	margin-bottom:50px;
-}
-
-.sec8_17 .header3_input_holder{
-	border-color:#dbd8cb;
-	margin-top:0;
-	height:50px;
-	border-radius:25px;
-	padding:5px 8px;
-}
-
-.sec8_17 .header3_input_holder input{
-	color:#222328;
-	width:285px;
-	height:36px;
-	line-height:36px;
-}
-
-.sec8_17 .header3_input_holder button{
-	padding:0;
-	width:36px;
-	height:36px;
-	border-radius:50%;
-	background:#f42267 url(../i/sec8_17_arrow.png) no-repeat 50% 50%;
-}
-
-.sec8_17 .header3_input_holder button:hover{
-	background-color:#df064d;
-}
-
-.sec8_17 .header3_input_holder.focused{
-	border-color:#fff;
-	background:#fff;
-	box-shadow:0px 20px 50px rgba(0,0,0,0.2);
-}
-
-.sec8_17_block.right{
-	width:380px;
-	float:right;
-}
-
-.sec8_17 .sec3_5_btn.tw{
-	padding-left:55px;
-	background:#55acee url(../i/sec8_17_tw.png) no-repeat 0 50%;
-	margin-top:0;
-}
-
-.sec8_17 .sec3_5_btn.tw:hover{
-	background-color:#2f91db;
-}
-
-.sec8_17 .sec3_5_btn.fb{
-	padding:0;
-	width:50px;
-	background:#3b5998 url(../i/sec8_17_fb.png) no-repeat 50% 50%;
-	margin-top:0;
-	vertical-align:top;
-	float:right;
-}
-
-.sec8_17 .sec3_5_btn.fb:hover{
-	background-color:#25468b;
-}
-
-.sec8_17 .separator{
-	float:left;
-	border-right:1px solid #d1cec2;
-	height:273px;
-	margin-left:115px;
-}
-
-/* Footer 17 */
-
-.footer17{
-	padding-top:112px;
-	padding-bottom:60px;
-	background:url(../i/bg_header17.png) no-repeat 50% 50%;
-	background-size:cover;
-	text-align:center;
-}
-
-.footer17 .container{
-	max-width:970px;
-}
-
-.footer17 .col{
-	float:left;
-	width:170px;
-	margin-right:30px;
-	text-align:left;
-	margin-bottom:50px;
-}
-
-.footer17 .col.last{
-	margin-right:0;
-}
-
-.footer17 .col.right{
-	float:right;
-	margin-right:0;
-}
-
-.footer17 .col .title{
-	font-size:16px;
-	line-height:24px;
-	text-transform:uppercase;
-	letter-spacing:1px;
-	margin-bottom:17px;
-}
-
-.footer17 .col a, .footer17 .col a:focus{
-	display:block;
-	font-size:16px;
-	line-height:48px;
-	color:#8c8f94;
-}
-
-.footer17 .col a:hover{
-	color:#222328;
-}
-
-.footer17 .col a img{
-	vertical-align:top;
-	margin-right:8px;
-	margin-top:15px;
-}
-
-.footer17 .line{
-	margin-top:12px;
-	border-color:#e7e8e9;
-	margin-bottom:51px;
-}
-
-.footer17 .copy{
-	font-size:22px;
-}
-
-.footer17 .copy_text{
-	font-weight:300;
-	font-size:14px;
-	line-height:24px;
-	color:#8c8f94;
-	margin-top:15px;
-}
-
-
 /*
 *
 *
 *
-*
 	Landing 18 - iMac
-*
-*
-*
 *
 *
 */
@@ -11794,7 +11594,7 @@ Landing 4 - Desktop App
 /* Navigation 18 */
 
 .nav18{
-	background:#fff;
+	background:rgb(36,44,68);
 	padding:32px 0;
 }
 
@@ -11813,7 +11613,7 @@ Landing 4 - Desktop App
 	font-weight:300;
 	line-height:40px;
 	font-size:16px;
-	color:#3a3d4b;
+	color:#fff;
 	display:inline-block;
 	margin-left:28px;
 }
@@ -11835,10 +11635,10 @@ Landing 4 - Desktop App
 /* Header 18 */
 
 .header18{
-	padding-top:162px;
-	padding-bottom:197px;
-	background:#222328;
-	color:#fff;
+	padding-top:70px;
+	padding-bottom:100px;
+	background:white;
+	color:#545454;
 }
 
 .header18 .inner{
@@ -11930,7 +11730,6 @@ Landing 4 - Desktop App
 .sec1_18{
 	padding-top:115px;
 	padding-bottom:48px;
-	text-align:center;
 	border-bottom:1px solid #e8e9e9;
 }
 
@@ -11942,19 +11741,19 @@ Landing 4 - Desktop App
 }
 
 .bg_sec1_18{
-	max-width:100%;
+	max-width:30%;
 }
 
 /* Section 2 (18) */
 
 .sec2_18{
-	padding-top:105px;
-	padding-bottom:69px;
+	padding-top:40px;
+	padding-bottom:60px;
 	text-align:center;
 }
 
 .sec2_18 .sec1_18_text{
-	margin-bottom:72px;
+	margin-bottom:39px;
 }
 
 .sec2_18_block{
@@ -12134,13 +11933,13 @@ Landing 4 - Desktop App
 /* Section 6 (18) */
 
 .sec6_18{
-	padding-top:115px;
-	padding-bottom:122px;
+	padding-top:40px;
+	padding-bottom:40px;
 	text-align:center;
 }
 
 .sec6_18 .flex{
-	margin-top:72px;
+	margin-top:30px;
 }
 
 .sec6_18 .sec5_6_block{
@@ -12163,7 +11962,7 @@ Landing 4 - Desktop App
 /* Section 7 (18) */
 
 .sec7_18{
-	padding-top:118px;
+	padding-top:40px;
 	padding-bottom:88px;
 	border-bottom:1px solid #e8e9e9;
 	text-align:center;
@@ -12277,9 +12076,9 @@ Landing 4 - Desktop App
 /* Footer 18 */
 
 .footer18{
-	padding-top:97px;
-	padding-bottom:65px;
-	background:#222328;
+	padding-top:30px;
+	padding-bottom:20px;
+	background:rgb(36,44,68);
 	text-align:center;
 }
 
@@ -12288,7 +12087,7 @@ Landing 4 - Desktop App
 }
 
 .footer18_form{
-	border:2px solid #39393e;
+	border:2px solid #fff;
 	min-height:50px;
 	border-radius:25px;
 	padding:5px;
@@ -12336,7 +12135,7 @@ Landing 4 - Desktop App
 	font-weight:300;
 	font-size:16px;
 	line-height:36px;
-	color:#8c8f94;
+	color:#fff;
 	display:block;
 }
 
@@ -12713,7 +12512,7 @@ Landing 4 - Desktop App
 }
 
 .sec5_19_block .sec4_5_btn{
-	margin-top:40px;
+	margin-top:30px;
 	padding:0 30px;
 }
 
