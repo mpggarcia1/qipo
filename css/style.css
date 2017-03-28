@@ -3085,7 +3085,7 @@ Landing 4 - Desktop App
 	margin-bottom:40px;
 }
 
-.sec3_5_btn, .sec3_5_btn:focus{
+.sec3_5_btn, #maitre-submit-button, .sec3_5_btn:focus, #maitre-submit-button:focus{
 	display:inline-block;
 	height:50px;
 	line-height:50px;
@@ -3099,12 +3099,12 @@ Landing 4 - Desktop App
 	margin-top:20px;
 }
 
-.sec3_5_btn i{
+.sec3_5_btn i, #maitre-submit-button i{
 	text-transform:none;
 	letter-spacing:0px;
 }
 
-.sec3_5_btn:hover{
+.sec3_5_btn:hover, #maitre-submit-button:hover{
 	color:#fff;
 	background:#243fd9;
 }
@@ -3347,7 +3347,7 @@ Landing 4 - Desktop App
 	margin-right:0;
 }
 
-.sec6_5_label{
+.sec6_5_label,#maitre-field-name label,#maitre-field-email label{
 	margin-left:30px;
 	font-size:14px;
 	color:#c5c7c9;
@@ -3355,6 +3355,15 @@ Landing 4 - Desktop App
 	letter-spacing:1px;
 	text-transform:uppercase;
 	margin-bottom:13px;
+}
+
+a#maitre-status{
+	margin-left:42px;
+	font-size:12px;
+	color:#c5c7c9;
+	line-height:22px;
+	letter-spacing:1px;
+	text-transform:uppercase;
 }
 
 .sec6_5_form input, .sec6_5_form textarea{
@@ -11659,7 +11668,7 @@ Landing 4 - Desktop App
 	margin-bottom:28px;
 }
 
-.header18_form{
+.header18_form,#maitre-form{
 	
 }
 
@@ -11672,13 +11681,13 @@ Landing 4 - Desktop App
 	float:right;
 }
 
-.header18_form .sec6_5_label{
+.header18_form .sec6_5_label,#maitre-form .maitre-field label{
 	color:#8c8f94;
 	opacity:0.5;
 }
 
-.header18_form input{
-	color:#fff;
+.header18_form input, #maitre-form input{
+	/*color:#fff;*/
 	background:none;
 	width:100%;
 	height:50px;
@@ -11689,15 +11698,15 @@ Landing 4 - Desktop App
 	margin-bottom:35px;
 }
 
-.header18_form input:focus{
-	border-color:rgba(255,255,255,0.5);
+.header18_form input:focus, #maitre-form input:focus{
+	/*border-color:rgba(255,255,255,0.5);*/
 }
 
 .header18_form input[type=password]{
 	letter-spacing:3px;
 }
 
-.header18_form .sec3_5_btn{
+.header18_form .sec3_5_btn, #maitre-form #maitre-submit-button{
 	width:100%;
 	margin-top:15px;
 }
