@@ -6897,7 +6897,7 @@ Landing 4 - Desktop App
 	width:32px;
 	height:32px;
 	background:#fff url(../i/sec6_2_video_play.png) no-repeat 50% 50%;
-	background-size:42px 42px;
+	background-size:52px 62px;
 	position:absolute;
 	left:0;
 	top:50%;
@@ -11703,8 +11703,8 @@ Landing 4 - Desktop App
 }
 
 .header18 .header4_video, .header18 .header4_video video{
-	width:570px;
-	height:364px;
+	width:630px;
+	height:464px;
 }
 
 .header18 .header4_video{
