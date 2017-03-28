@@ -11714,12 +11714,13 @@ a#maitre-status{
 
 .header18 .header4_video, .header18 .header4_video video{
 	width:630px;
-	height:464px;
+	height:400px;
+	margin-left:64px;
 }
 
 .header18 .header4_video{
 	height:auto;
-	margin-top:72px;
+	margin-top:92px;
 }
 
 .header18 .header4_video .relative{
@@ -11732,6 +11733,7 @@ a#maitre-status{
 	color:#8c8f94;
 	text-align:center;
 	margin-top:5px;
+	margin-left: 72px;
 	opacity:0.44;
 }
 
@@ -13251,9 +13253,9 @@ a#maitre-status{
 
 
 
-
-
-
+#nav > .container .left, #nav > .container .right{
+	padding-top:8px;
+}
 
 
 
